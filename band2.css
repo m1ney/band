@@ -1,0 +1,45 @@
+html,
+div,
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.clearfix {
+	clear: both;
+}
+
+header {
+	background-color: black;
+	color: white;
+	line-height: 1;
+}
+
+header>nav {
+	float: left;
+}
+
+header>nav>div {
+	float: left;
+	padding: 12px 20px;
+	cursor: pointer;
+}
+
+header>nav>div:hover {
+	background-color: #cccccc;
+	color: black;
+}
+
+header>span {
+	float: right;
+	padding: 12px 20px;
+	cursor: pointer;
+}
+
+header>span:hover {
+	background-color: #ee2200;
+}
+
+.img {
+	width: 100%;
+}
